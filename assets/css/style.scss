@@ -54,8 +54,40 @@ body {
     width: 100%;
 }
 
-.main-content {
-    max-width: 100%;
+@media screen and (max-width: 400px) {
+
+    .main-content {
+        max-width: 100%;
+    }
+    .main-content .small_video {
+        width: 120px;
+        height: 70px;
+    }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+
+    .main-content {
+        max-width: 100%;
+    }
+    .main-content .small_video {
+        width: 100px;
+        height: 60px;
+    }
+
+}
+
+@media screen and (min-width: 801px) {
+
+    .main-content {
+        max-width: 70%;
+    }
+    .main-content .small_video {
+        width: 330px;
+        height: 200px;
+    }
+
 }
 
 .main-content h1, .main-content h2, .main-content {

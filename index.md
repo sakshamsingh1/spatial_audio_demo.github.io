@@ -78,9 +78,9 @@ When target sample is recorded with human voices.
         <th>MovingMotorVehicle</th>
     </tr>
     <tr>
-        <td><video width="320" height="240" controls><source src="public/videos/dogbark.mp4" type="video/mp4"></video></td>
-        <td><video width="320" height="240" controls><source src="public/videos/gunshot.mp4" type="video/mp4"></video></td>
-        <td><video width="320" height="240" controls><source src="public/videos/movingmotorvehicle.mp4" type="video/mp4"></video></td>
+        <td><video class="small_video" controls><source src="public/videos/dogbark.mp4" type="video/mp4"></video></td>
+        <td><video class="small_video" controls><source src="public/videos/gunshot.mp4" type="video/mp4"></video></td>
+        <td><video class="small_video" controls><source src="public/videos/movingmotorvehicle.mp4" type="video/mp4"></video></td>
     </tr>
     <tr>
         <th>Keyboard</th>
@@ -88,9 +88,9 @@ When target sample is recorded with human voices.
         <th>Footstep</th>
     </tr>
     <tr>
-        <td><video width="320" height="240" controls><source src="public/videos/keyboard.mp4" type="video/mp4"></video></td>
-        <td><video width="320" height="240" controls><source src="public/videos/rain.mp4" type="video/mp4"></video></td>
-        <td><video width="320" height="240" controls><source src="public/videos/footstep.mp4" type="video/mp4"></video></td>
+        <td><video class="small_video" controls><source src="public/videos/keyboard.mp4" type="video/mp4"></video></td>
+        <td><video class="small_video" controls><source src="public/videos/rain.mp4" type="video/mp4"></video></td>
+        <td><video class="small_video" controls><source src="public/videos/footstep.mp4" type="video/mp4"></video></td>
     </tr>
 </table>
 
