@@ -62,7 +62,7 @@ To demonstrate that our model performs well in such use cases, we conducted expe
 
 When target sample, which indicate when the events should occur, is recorded by clapping.
 
-<video width="640" height="360" controls>
+<video width="80%" controls>
   <source src="public/videos/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
