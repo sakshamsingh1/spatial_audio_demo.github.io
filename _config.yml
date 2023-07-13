@@ -1,6 +1,6 @@
-title: Event-guided Foley Sound Synthesis Demo
+title: Controllable Waveform-Domain Diffusion Model for Event-Guided Foley Sound Synthesis
 description: Yoonjin Chung, Junwon Lee
-show_downloads: false
+show_downloads: true
 remote_theme: tuur29/pages-themes-cayman
 darkmode: false
 color:
