@@ -20,31 +20,31 @@ Figure 1 and following demo samples contain the target samples, along with the c
         <th></th>
         <th>GunShot</th>
         <th>Footstep</th>
-        <th>Keyboard</th>
+        <th>Sneeze/Cough</th>
     </tr>
     <tr>
         <td>Target</td>
-        <td><audio src="public/audios/GunShot_074.wav" controls></audio></td>
-        <td><audio src="public/audios/Footstep_094.wav" controls></audio></td>
-        <td><audio src="public/audios/Keyboard_070.wav" controls></audio></td>
+        <td><audio src="public/audios/097_gunshot.wav" controls></audio></td>
+        <td><audio src="public/audios/094_footstep.wav" controls></audio></td>
+        <td><audio src="public/audios/014_sneeze_cough.wav" controls></audio></td>
     </tr>
     <tr>
         <td>FiLM</td>
-        <td><audio src="public/audios/GunShot_074_Film.wav" controls></audio></td>
-        <td><audio src="public/audios/Footstep_094_Film.wav" controls></audio></td>
-        <td><audio src="public/audios/Keyboard_070_Film.wav" controls></audio></td>
+        <td><audio src="public/audios/097_gunshot_Film.wav" controls></audio></td>
+        <td><audio src="public/audios/094_footstep_Film.wav" controls></audio></td>
+        <td><audio src="public/audios/014_sneeze_cough_Film.wav" controls></audio></td>
     </tr>
     <tr>
         <td>TFiLM</td>
-        <td><audio src="public/audios/GunShot_074_TFilm.wav" controls></audio></td>
-        <td><audio src="public/audios/Footstep_094_TFilm.wav" controls></audio></td>
-        <td><audio src="public/audios/Keyboard_070_TFilm.wav" controls></audio></td>
+        <td><audio src="public/audios/097_gunshot_TFilm.wav" controls></audio></td>
+        <td><audio src="public/audios/094_footstep_TFilm.wav" controls></audio></td>
+        <td><audio src="public/audios/014_sneeze_cough_TFilm.wav" controls></audio></td>
     </tr>
     <tr>
         <td>BFiLM</td>
-        <td><audio src="public/audios/GunShot_074_BFilm.wav" controls></audio></td>
-        <td><audio src="public/audios/Footstep_094_BFilm.wav" controls></audio></td>
-        <td><audio src="public/audios/Keyboard_070_BFilm.wav" controls></audio></td>
+        <td><audio src="public/audios/097_gunshot_BFilm.wav" controls></audio></td>
+        <td><audio src="public/audios/094_footstep_BFilm.wav" controls></audio></td>
+        <td><audio src="public/audios/014_sneeze_cough_BFilm.wav" controls></audio></td>
     </tr>
 </table>
 
