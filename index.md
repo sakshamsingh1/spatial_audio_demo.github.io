@@ -107,7 +107,7 @@ Figure 1 and following demo samples contain the target samples, along with the c
 
 # Vocal conditions
 
-While controllable foley sound synthesis holds immense potential, inputting event features directly into real-world applications can be challenging for users. Therefore, we propose using vocal audio mimicking foley sound as a reference for extracting temporal event conditions, offering ease and intuitiveness. To evaluate the performance in such scenarios, we assess T-Foley using subsets of two vocal datasets that mimic foley sounds: *VocalImitationSet* and *VocalSketch*. We release the corresponding subsets: <a href="public/VocalImitationSet_subset_foley.csv">VocalImitationSet</a> and <a href="public/VocalSketch_subset_foley.csv">VocalSketch</a>.
+While controllable foley sound synthesis holds immense potential, inputting event features directly into real-world applications can be challenging for users. Therefore, we propose using vocal audio mimicking foley sound as a reference for extracting temporal event conditions, offering ease and intuitiveness. To evaluate the performance in such scenarios, we assess T-Foley using subsets of two vocal datasets that mimic foley sounds: *VocalImitationSet* and *VocalSketch*. We release the corresponding subsets: [VocalImitationSet](public/VocalImitationSet_subset_foley.csv) and [VocalSketch](public/VocalSketch_subset_foley.csv).
 
 <div style="display:flex; justify-content:center;">
 <table style="display:flex; overflow:scroll;" text-align='center'>
