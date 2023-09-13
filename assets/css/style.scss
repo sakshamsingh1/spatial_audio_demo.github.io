@@ -89,3 +89,13 @@ body {
 .main-content h1, .main-content h2, .main-content {
     text-align: center;
 }
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: auto;
+  }
+::-webkit-scrollbar-thumb {
+    // border-radius: 4px;
+    background-color: rgba(0,0,0,.25);
+    // -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
