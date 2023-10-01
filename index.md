@@ -25,8 +25,8 @@ When target sample, which indicate when the events should occur, is recorded by 
 
 When target sample is recorded with human voices.
 
-<div style="display:flex; justify-content:center">
-<table style="display:contents" text-align='center'>
+<div style="display:flex; justify-content:center;">
+<table style="display:flex; overflow:scroll;" text-align='center'>
     <tr>
         <th>DogBark</th>
         <th>GunShot</th>
@@ -68,8 +68,8 @@ Figure 1 and following demo samples contain the target samples, along with the c
 
 <br>
 
-<div style="display:flex; justify-content:center">
-<table style="display:contents" text-align='center'>
+<div style="display:flex; justify-content:center;">
+<table style="display:flex; overflow:scroll;" text-align='center'>
     <tr>
         <th></th>
         <th>GunShot</th>
@@ -107,9 +107,10 @@ Figure 1 and following demo samples contain the target samples, along with the c
 
 # Vocal conditions
 
-While controllable foley sound synthesis holds immense potential, inputting event features directly into real-world applications can be challenging for users. Therefore, we propose using vocal audio mimicking foley sound as a reference for extracting temporal event conditions, offering ease and intuitiveness. To evaluate the performance in such scenarios, we assess T-Foley using subsets of two vocal datasets that mimic foley sounds: *Vocal Imitation* Set and *VocalSketch*.
+While controllable foley sound synthesis holds immense potential, inputting event features directly into real-world applications can be challenging for users. Therefore, we propose using vocal audio mimicking foley sound as a reference for extracting temporal event conditions, offering ease and intuitiveness. To evaluate the performance in such scenarios, we assess T-Foley using subsets of two vocal datasets that mimic foley sounds: *VocalImitationSet* and *VocalSketch*. We release the corresponding subsets: [VocalImitationSet](public/VocalImitationSet_subset_foley.csv) and [VocalSketch](public/VocalSketch_subset_foley.csv).
 
-<table>
+<div style="display:flex; justify-content:center;">
+<table style="display:flex; overflow:scroll;" text-align='center'>
     <tr>
         <th></th>
         <th>Vocal Condition</th>
@@ -153,6 +154,7 @@ While controllable foley sound synthesis holds immense potential, inputting even
         <td><audio src="public/audios/vocal_conditions/generated/rain/018_mix_to_R.wav" controls></audio></td>
     </tr>
 </table>
+</div>
 
 <br>
 
@@ -165,8 +167,8 @@ Generating foley sounds using temporal event conditions produces significantly m
         <em text-align="center">Figure 2: (a) Comparing manually synthesized consecutive gunshot sounds with sounds generated through temporal event feature. (b) Generated sounds with the original temporal event features and those with features reduced by a factor of 10.</em>
 </p>
 
-<div style="display:flex; justify-content:center">
-<table style="display:contents" text-align='center'>
+<div style="display:flex; justify-content:center;">
+<table style="display:inline-table; overflow:scroll;" text-align='center'>
     <tr>
         <td>Original</td>
         <td>Original</td>
