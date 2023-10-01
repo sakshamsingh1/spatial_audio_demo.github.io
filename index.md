@@ -26,7 +26,7 @@ When target sample, which indicate when the events should occur, is recorded by 
 When target sample is recorded with human voices.
 
 <div style="display:flex; justify-content:center;">
-<table style="display:flex; justify-content:center; overflow:scroll;" text-align='center'>
+<table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
     <tr>
         <th>DogBark</th>
         <th>GunShot</th>
@@ -69,7 +69,7 @@ Figure 1 and following demo samples contain the target samples, along with the c
 <br>
 
 <div style="display:flex; justify-content:center;">
-<table style="display:flex; justify-content:center; overflow:scroll;" text-align='center'>
+<table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
     <tr>
         <th></th>
         <th>GunShot</th>
@@ -110,7 +110,7 @@ Figure 1 and following demo samples contain the target samples, along with the c
 While controllable foley sound synthesis holds immense potential, inputting event features directly into real-world applications can be challenging for users. Therefore, we propose using vocal audio mimicking foley sound as a reference for extracting temporal event conditions, offering ease and intuitiveness. To evaluate the performance in such scenarios, we assess T-Foley using subsets of two vocal datasets that mimic foley sounds: *VocalImitationSet* and *VocalSketch*. We release the corresponding subsets: [VocalImitationSet](public/VocalImitationSet_subset_foley.csv) and [VocalSketch](public/VocalSketch_subset_foley.csv).
 
 <div style="display:flex; justify-content:center;">
-<table style="display:flex; justify-content:center; overflow:scroll;" text-align='center'>
+<table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
     <tr>
         <th></th>
         <th>Vocal Condition</th>
@@ -168,7 +168,7 @@ Generating foley sounds using temporal event conditions produces significantly m
 </p>
 
 <div style="display:flex; justify-content:center;">
-<table style="display:flex; justify-content:center; overflow:scroll;" text-align='center'>
+<table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
     <tr>
         <td></td>
         <td>Original</td>
@@ -185,7 +185,7 @@ Generating foley sounds using temporal event conditions produces significantly m
 </div>
 
 <div style="display:flex; justify-content:center;">
-<table style="display:flex; justify-content:center; overflow:scroll;" text-align='center'>
+<table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
     <tr>
         <td></td>
         <td>Original</td>
