@@ -163,7 +163,7 @@ While controllable foley sound synthesis holds immense potential, inputting even
 Generating foley sounds using temporal event conditions produces significantly more realistic outcomes compared to manual foley sound manipulation. We illustrate two specific applications. Firstly, envision a situation involving consecutive machine gunshots. Manually adjusting and joining individual gunshot sound snippets can result in an unnatural audio sequence. Conversely, employing T-Foley to concatenate temporal event conditions leads to a seamless and lifelike sound. Secondly, contemplate two scenarios: typing vigorously on a typewriter and softly pressing keys on a plastic keyboard. T-Foley can generate these sounds using identical temporal event features while varying the overall amplitude. It is important to note that the temporal event feature encloses information regarding sound timing and intensity.
 
 <p>
-        <img src="public/images/control_samples.png" width="50%" align="center" alt> <br>
+        <img src="public/images/control_samples.png" width="50%" text-align="center" alt> <br>
         <em text-align="center">Figure 2: (a) Comparing manually synthesized consecutive gunshot sounds with sounds generated through temporal event feature. (b) Generated sounds with the original temporal event features and those with features reduced by a factor of 10.</em>
 </p>
 
@@ -171,31 +171,30 @@ Generating foley sounds using temporal event conditions produces significantly m
 <table style="display:inline-table; overflow:scroll;" text-align='center'>
     <tr>
         <td>Original</td>
-        <td>Original</td>
-    </tr>
-    <tr>
-        <td><audio src="public/audios/control_rms/gunshot_original.wav" controls></audio></td>
-        <td><audio src="public/audios/control_rms/keyboard_original.wav" controls></audio></td>
-    </tr>
-    <tr>
         <td>Concatenated</td>
-        <td>Generated with<br>original RMS</td>
-    </tr>
-    <tr>
-        <td><audio src="public/audios/control_rms/gunshot_high-sparsity_shifted.wav" controls></audio></td>
-        <td><audio src="public/audios/control_rms/keyboard_original_rms.wav" controls></audio></td>
-    </tr>
-    <tr>
         <td>Generated</td>
+    </tr>
+    <tr>
+        <td>(a)</td>
+        <td><audio src="public/audios/control_rms/gunshot_original.wav" controls></audio></td>
+        <td><audio src="public/audios/control_rms/gunshot_high-sparsity_shifted.wav" controls></audio></td>
+        <td><audio src="public/audios/control_rms/gunshot_high-sparsity_generated.wav" controls></audio></td>
+    </tr>
+</table>
+</div>
+
+<div style="display:flex; justify-content:center;">
+<table style="display:inline-table; overflow:scroll;" text-align='center'>
+    <tr>
+        <td>Original</td>
+        <td>Generated with<br>original RMS</td>
         <td>Generated with<br>/10 RMS</td>
     </tr>
     <tr>
-        <td><audio src="public/audios/control_rms/gunshot_high-sparsity_generated.wav" controls></audio></td>
+        <td>(b)</td>
+        <td><audio src="public/audios/control_rms/keyboard_original.wav" controls></audio></td>
+        <td><audio src="public/audios/control_rms/keyboard_original_rms.wav" controls></audio></td>
         <td><audio src="public/audios/control_rms/keyboard_reduced_rms.wav" controls></audio></td>
-    </tr>
-    <tr>
-        <th>(a)</th>
-        <th>(b)</th>
     </tr>
 </table>
 </div>
