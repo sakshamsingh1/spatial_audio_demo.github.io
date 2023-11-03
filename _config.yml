@@ -15,7 +15,7 @@ color:
 syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
 buttons:
   zip_url: https://library_will-uploaded
-  zip_title: Paper Link
-  zip_hide: true
+  zip_title: Code will be updated!
+  zip_hide: false
   tar_hide: true
   github_hide: true
