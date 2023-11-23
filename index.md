@@ -124,12 +124,12 @@ Figure 1 and following demo samples contain the target samples, along with the c
 
 <p>
     <img src="public/images/result_table.png" width="60%" class="center" alt>
-    <figcaption class="center">(Table 1)Result table of generation without or with event timing condition by FiLM, Temporal FiLM(TFiLM), and Block FiLM(BFiLM). (#params: Number of trainable parameters, infer.t: Approximate inference time for predicting 1 sample, E-L1: Event L1 norm, FAD-P, and FAD-V: FADs based on PANNs and VGGish, IS: Inception Score.). Note that 'w/o condition' is reproduced DAG[11], which is our baseline as SOTA categorical sound synthesis model w/o temporal guidance.</figcaption>
+    <figcaption class="center">[Table 1] Result table of generation without or with event timing condition by FiLM, Temporal FiLM(TFiLM), and Block FiLM(BFiLM). (#params: Number of trainable parameters, infer.t: Approximate inference time for predicting 1 sample, E-L1: Event L1 norm, FAD-P, and FAD-V: FADs based on PANNs and VGGish, IS: Inception Score.). Note that 'w/o condition' is reproduced DAG[11], which is our baseline as SOTA categorical sound synthesis model w/o temporal guidance.</figcaption>
 </p>
 
 <p>
     <img src="public/images/event-guided_samples.png" width="70%" class="center" alt>
-    <figcaption class="center">(Figure 1)Generated sound in Mel-spectrogram with conditioning target event timing feature. As shown in the spectrograms, it can be observed that FiLM exhibits the occurrence of unclear sounds that are not aligned with the timing of the target samples. In contrast, the other two methods demonstrate excellent synchronization of timing</figcaption>
+    <figcaption class="center">[Figure 1] Generated sound in Mel-spectrogram with conditioning target event timing feature. As shown in the spectrograms, it can be observed that FiLM exhibits the occurrence of unclear sounds that are not aligned with the timing of the target samples. In contrast, the other two methods demonstrate excellent synchronization of timing</figcaption>
 </p>
 
 <br>
@@ -179,7 +179,7 @@ Generating foley sounds using temporal event conditions produces significantly m
 
 <p>
         <img src="public/images/control_samples.png" width="50%" class="center" alt> <br>
-        <em text-align="center">Figure 2: (a) Comparing manually synthesized consecutive gunshot sounds with sounds generated through temporal event feature. (b) Generated sounds with the original temporal event features and those with features reduced by a factor of 10.</em>
+        <figcaption class="center">[Figure 2] (a) Comparing manually synthesized consecutive gunshot sounds with sounds generated through temporal event feature. (b) Generated sounds with the original temporal event features and those with features reduced by a factor of 10.</figcaption>
 </p>
 
 <div style="display:flex; justify-content:center;">
