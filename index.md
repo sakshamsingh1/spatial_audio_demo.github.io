@@ -11,6 +11,12 @@ The temporal event condition is implemented with Block-FiLM, a novel conditionin
 Our model achieves superior performances in both objective and subjective evaluation metrics and generates Foley sound that is well-synchronized to the temporal event condition. We particularly use vocal mimicking datasets paired with Foley sounds for the temporal event control, considering its intuitive usage in real-world application scenarios.
 
 
+<p>
+    <img src="public/images/task.png" width="50%" class="center" alt>
+</p>
+
+---
+
 # User Input Condition
 
 Creating Foley sounds manually is challenging and labor-intensive work. Therefore, the ultimate goal of this study is automating the Foley sound synthesis to allow anyone to easily generate sounds. 
@@ -22,11 +28,8 @@ To demonstrate that **T-Foley** performs well in such use cases, we conducted ex
 
 When target sample, which indicate when the events should occur, is recorded by clapping.
 
-<iframe width="80%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/3YiWd7MVEx0?si=Wz5knZIkMxbiRdtH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<!-- <video width="80%" controls>
-  <source src="public/videos/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> -->
+<iframe width="80%" class="center" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/3YiWd7MVEx0?si=Wz5knZIkMxbiRdtH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## 2. Voice
 
@@ -69,8 +72,13 @@ The generated results demonstrated that our model has the ability to generate hi
 Figure 1 and following demo samples contain the target samples, along with the corresponding 3 generated samples following each conditioning method. The first row is the sounds used to extract targeting event timing features. Subsequent rows are the generated results in different conditioning blocks (FiLM, TFiLM, and BFiLM). Columns for different sound categories (Gunshot, Footstep, and Keyboard)
 
 <p>
-    <img src="public/images/event-guided_samples.png" alt>
-    <em text-align="center">Figure 1: Generated sound in Mel-spectrogram with conditioning target event timing feature. As shown in the spectrograms, it can be observed that FiLM exhibits the occurrence of unclear sounds that are not aligned with the timing of the target samples. In contrast, the other two methods demonstrate excellent synchronization of timing which means that temporal FiLM and block FiLM outperform the original method.</em>
+    <img src="public/images/result_table.png" width="80%" class="center" alt>
+    <em>Result table of generation without or with event timing condition by FiLM, Temporal FiLM(TFiLM), and Block FiLM(BFiLM). (#params: Number of trainable parameters, infer.t: Approximate inference time for predicting 1 sample, E-L1: Event L1 norm, FAD-P, and FAD-V: FADs based on PANNs and VGGish, IS: Inception Score.). Note that 'w/o condition' is reproduced DAG[11], which is our baseline as SOTA categorical sound synthesis model w/o temporal guidance.</em>
+</p>
+
+<p>
+    <img src="public/images/event-guided_samples.png" width="50%" class="center" alt>
+    <em>Generated sound in Mel-spectrogram with conditioning target event timing feature. As shown in the spectrograms, it can be observed that FiLM exhibits the occurrence of unclear sounds that are not aligned with the timing of the target samples. In contrast, the other two methods demonstrate excellent synchronization of timing</em>
 </p>
 
 <br>
@@ -170,7 +178,7 @@ While controllable foley sound synthesis holds immense potential, inputting even
 Generating foley sounds using temporal event conditions produces significantly more realistic outcomes compared to manual foley sound manipulation. We illustrate two specific applications. Firstly, envision a situation involving consecutive machine gunshots. Manually adjusting and joining individual gunshot sound snippets can result in an unnatural audio sequence. Conversely, employing T-Foley to concatenate temporal event conditions leads to a seamless and lifelike sound. Secondly, contemplate two scenarios: typing vigorously on a typewriter and softly pressing keys on a plastic keyboard. T-Foley can generate these sounds using identical temporal event features while varying the overall amplitude. It is important to note that the temporal event feature encloses information regarding sound timing and intensity.
 
 <p>
-        <img src="public/images/control_samples.png" width="50%" text-align="center" alt> <br>
+        <img src="public/images/control_samples.png" width="50%" class="center" alt> <br>
         <em text-align="center">Figure 2: (a) Comparing manually synthesized consecutive gunshot sounds with sounds generated through temporal event feature. (b) Generated sounds with the original temporal event features and those with features reduced by a factor of 10.</em>
 </p>
 
