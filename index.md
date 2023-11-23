@@ -72,13 +72,13 @@ The generated results demonstrated that our model has the ability to generate hi
 Figure 1 and following demo samples contain the target samples, along with the corresponding 3 generated samples following each conditioning method. The first row is the sounds used to extract targeting event timing features. Subsequent rows are the generated results in different conditioning blocks (FiLM, TFiLM, and BFiLM). Columns for different sound categories (Gunshot, Footstep, and Keyboard)
 
 <p>
-    <img src="public/images/result_table.png" width="80%" class="center" alt>
-    <em>Result table of generation without or with event timing condition by FiLM, Temporal FiLM(TFiLM), and Block FiLM(BFiLM). (#params: Number of trainable parameters, infer.t: Approximate inference time for predicting 1 sample, E-L1: Event L1 norm, FAD-P, and FAD-V: FADs based on PANNs and VGGish, IS: Inception Score.). Note that 'w/o condition' is reproduced DAG[11], which is our baseline as SOTA categorical sound synthesis model w/o temporal guidance.</em>
+    <img src="public/images/result_table.png" width="60%" class="center" alt>
+    <figcaption width="80%" class="center">Result table of generation without or with event timing condition by FiLM, Temporal FiLM(TFiLM), and Block FiLM(BFiLM). (#params: Number of trainable parameters, infer.t: Approximate inference time for predicting 1 sample, E-L1: Event L1 norm, FAD-P, and FAD-V: FADs based on PANNs and VGGish, IS: Inception Score.). Note that 'w/o condition' is reproduced DAG[11], which is our baseline as SOTA categorical sound synthesis model w/o temporal guidance.</figcaption>
 </p>
 
 <p>
-    <img src="public/images/event-guided_samples.png" width="50%" class="center" alt>
-    <em>Generated sound in Mel-spectrogram with conditioning target event timing feature. As shown in the spectrograms, it can be observed that FiLM exhibits the occurrence of unclear sounds that are not aligned with the timing of the target samples. In contrast, the other two methods demonstrate excellent synchronization of timing</em>
+    <img src="public/images/event-guided_samples.png" width="60%" class="center" alt>
+    <figcaption width="80%" class="center">Generated sound in Mel-spectrogram with conditioning target event timing feature. As shown in the spectrograms, it can be observed that FiLM exhibits the occurrence of unclear sounds that are not aligned with the timing of the target samples. In contrast, the other two methods demonstrate excellent synchronization of timing</figcaption>
 </p>
 
 <br>

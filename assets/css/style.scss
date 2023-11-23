@@ -93,6 +93,18 @@ body {
     font-weight: bold;
 }
 
+.main-content p {
+    font-size: 1.1em;
+    color: #000000;
+}
+
+.main-content figcaption {
+    // font-style: italic;
+    padding-top: 0.5em;
+    font-size: 0.8em;
+    color: #606060;
+}
+
 .center {
     display: block;
     margin-left: auto;
