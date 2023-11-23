@@ -28,12 +28,10 @@ To demonstrate that **T-Foley** performs well in such use cases, we conducted ex
 
 When target sample, which indicate when the events should occur, is recorded by clapping.
 
-<iframe width="80%" class="center" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/3YiWd7MVEx0?si=Wz5knZIkMxbiRdtH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="70%" class="center" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/3YiWd7MVEx0?si=Wz5knZIkMxbiRdtH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## 2. Voice
-
-When target sample is recorded with human voices.
 
 <div style="display:flex; justify-content:center;">
 <table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
@@ -65,64 +63,9 @@ The generated results demonstrated that our model has the ability to generate hi
 
 <br>
 
----
+### (+) Vocal Imitating Dataset 
 
-# Temporal Event Conditioning Methods
-
-Figure 1 and following demo samples contain the target samples, along with the corresponding 3 generated samples following each conditioning method. The first row is the sounds used to extract targeting event timing features. Subsequent rows are the generated results in different conditioning blocks (FiLM, TFiLM, and BFiLM). Columns for different sound categories (Gunshot, Footstep, and Keyboard)
-
-<p>
-    <img src="public/images/result_table.png" width="60%" class="center" alt>
-    <figcaption class="center">Result table of generation without or with event timing condition by FiLM, Temporal FiLM(TFiLM), and Block FiLM(BFiLM). (#params: Number of trainable parameters, infer.t: Approximate inference time for predicting 1 sample, E-L1: Event L1 norm, FAD-P, and FAD-V: FADs based on PANNs and VGGish, IS: Inception Score.). Note that 'w/o condition' is reproduced DAG[11], which is our baseline as SOTA categorical sound synthesis model w/o temporal guidance.</figcaption>
-</p>
-
-<p>
-    <img src="public/images/event-guided_samples.png" width="70%" class="center" alt>
-    <figcaption class="center">Generated sound in Mel-spectrogram with conditioning target event timing feature. As shown in the spectrograms, it can be observed that FiLM exhibits the occurrence of unclear sounds that are not aligned with the timing of the target samples. In contrast, the other two methods demonstrate excellent synchronization of timing</figcaption>
-</p>
-
-<br>
-
-<div style="display:flex; justify-content:center;">
-<table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
-    <tr>
-        <th></th>
-        <th>GunShot</th>
-        <th>Footstep</th>
-        <th>Sneeze/Cough</th>
-    </tr>
-    <tr>
-        <td>Target</td>
-        <td><audio src="public/audios/097_gunshot.wav" controls></audio></td>
-        <td><audio src="public/audios/094_footstep.wav" controls></audio></td>
-        <td><audio src="public/audios/014_sneeze_cough.wav" controls></audio></td>
-    </tr>
-    <tr>
-        <td>FiLM</td>
-        <td><audio src="public/audios/097_gunshot_Film.wav" controls></audio></td>
-        <td><audio src="public/audios/094_footstep_Film.wav" controls></audio></td>
-        <td><audio src="public/audios/014_sneeze_cough_Film.wav" controls></audio></td>
-    </tr>
-    <tr>
-        <td>TFiLM</td>
-        <td><audio src="public/audios/097_gunshot_TFilm.wav" controls></audio></td>
-        <td><audio src="public/audios/094_footstep_TFilm.wav" controls></audio></td>
-        <td><audio src="public/audios/014_sneeze_cough_TFilm.wav" controls></audio></td>
-    </tr>
-    <tr>
-        <td>BFiLM</td>
-        <td><audio src="public/audios/097_gunshot_BFilm.wav" controls></audio></td>
-        <td><audio src="public/audios/094_footstep_BFilm.wav" controls></audio></td>
-        <td><audio src="public/audios/014_sneeze_cough_BFilm.wav" controls></audio></td>
-    </tr>
-</table>
-</div>
-
-<br>
-
-# Vocal conditions
-
-While controllable foley sound synthesis holds immense potential, inputting event features directly into real-world applications can be challenging for users. Therefore, we propose using vocal audio mimicking foley sound as a reference for extracting temporal event conditions, offering ease and intuitiveness. To evaluate the performance in such scenarios, we assess T-Foley using subsets of two vocal datasets that mimic foley sounds: *VocalImitationSet* and *VocalSketch*. We release the corresponding subsets: [VocalImitationSet](public/VocalImitationSet_subset_foley.csv) and [VocalSketch](public/VocalSketch_subset_foley.csv).
+To quantitatively evaluate T-foley in various voice samples, we assess our model using subsets of two vocal datasets that mimic foley sounds: *VocalImitationSet* and *VocalSketch*. We release the corresponding subsets: [VocalImitationSet](public/VocalImitationSet_subset_foley.csv) and [VocalSketch](public/VocalSketch_subset_foley.csv).
 
 <div style="display:flex; justify-content:center;">
 <table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
@@ -172,6 +115,63 @@ While controllable foley sound synthesis holds immense potential, inputting even
 </div>
 
 <br>
+
+---
+
+# Temporal Event Conditioning Methods
+
+Figure 1 and following demo samples contain the target samples, along with the corresponding 3 generated samples following each conditioning method. The first row is the sounds used to extract targeting event timing features. Subsequent rows are the generated results in different conditioning blocks (FiLM, TFiLM, and BFiLM). Columns for different sound categories (Gunshot, Footstep, and Keyboard)
+
+<p>
+    <img src="public/images/result_table.png" width="60%" class="center" alt>
+    <figcaption class="center">(Table 1)Result table of generation without or with event timing condition by FiLM, Temporal FiLM(TFiLM), and Block FiLM(BFiLM). (#params: Number of trainable parameters, infer.t: Approximate inference time for predicting 1 sample, E-L1: Event L1 norm, FAD-P, and FAD-V: FADs based on PANNs and VGGish, IS: Inception Score.). Note that 'w/o condition' is reproduced DAG[11], which is our baseline as SOTA categorical sound synthesis model w/o temporal guidance.</figcaption>
+</p>
+
+<p>
+    <img src="public/images/event-guided_samples.png" width="70%" class="center" alt>
+    <figcaption class="center">(Figure 1)Generated sound in Mel-spectrogram with conditioning target event timing feature. As shown in the spectrograms, it can be observed that FiLM exhibits the occurrence of unclear sounds that are not aligned with the timing of the target samples. In contrast, the other two methods demonstrate excellent synchronization of timing</figcaption>
+</p>
+
+<br>
+
+<div style="display:flex; justify-content:center;">
+<table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
+    <tr>
+        <th></th>
+        <th>GunShot</th>
+        <th>Footstep</th>
+        <th>Sneeze/Cough</th>
+    </tr>
+    <tr>
+        <td>Target</td>
+        <td><audio src="public/audios/097_gunshot.wav" controls></audio></td>
+        <td><audio src="public/audios/094_footstep.wav" controls></audio></td>
+        <td><audio src="public/audios/014_sneeze_cough.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>FiLM</td>
+        <td><audio src="public/audios/097_gunshot_Film.wav" controls></audio></td>
+        <td><audio src="public/audios/094_footstep_Film.wav" controls></audio></td>
+        <td><audio src="public/audios/014_sneeze_cough_Film.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>TFiLM</td>
+        <td><audio src="public/audios/097_gunshot_TFilm.wav" controls></audio></td>
+        <td><audio src="public/audios/094_footstep_TFilm.wav" controls></audio></td>
+        <td><audio src="public/audios/014_sneeze_cough_TFilm.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>BFiLM</td>
+        <td><audio src="public/audios/097_gunshot_BFilm.wav" controls></audio></td>
+        <td><audio src="public/audios/094_footstep_BFilm.wav" controls></audio></td>
+        <td><audio src="public/audios/014_sneeze_cough_BFilm.wav" controls></audio></td>
+    </tr>
+</table>
+</div>
+
+<br>
+
+---
 
 # Why T-Foley?
 
