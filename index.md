@@ -77,7 +77,7 @@ Figure 1 and following demo samples contain the target samples, along with the c
 </p>
 
 <p>
-    <img src="public/images/event-guided_samples.png" width="60%" class="center" alt>
+    <img src="public/images/event-guided_samples.png" width="70%" class="center" alt>
     <figcaption width="80%" class="center">Generated sound in Mel-spectrogram with conditioning target event timing feature. As shown in the spectrograms, it can be observed that FiLM exhibits the occurrence of unclear sounds that are not aligned with the timing of the target samples. In contrast, the other two methods demonstrate excellent synchronization of timing</figcaption>
 </p>
 
