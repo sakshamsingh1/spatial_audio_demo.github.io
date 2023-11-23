@@ -4,6 +4,13 @@ layout: default
 
 <br>
 
+## Abstract
+Foley sound, audio content inserted synchronously with videos in post-production, plays a crucial role in the user experience of multimedia content. Recently, Foley sound synthesis has been actively studied, leveraging the advances in deep generative models. However, such works mainly focus on mimicking a particular sound class as a single event or a holistic context without temporal information of individual sources.
+We present ***T-Foley***, a ***T***emporal-event guided waveform generation model for ***Foley*** sound synthesis. T-Foley generates high-quality audio using two conditions: the sound class and the temporal event condition. 
+The temporal event condition is implemented with Block-FiLM, a novel conditioning method derived from Temporal-FiLM.
+Our model achieves superior performances in both objective and subjective evaluation metrics and generates Foley sound that is well-synchronized to the temporal event condition. We particularly use vocal mimicking datasets paired with Foley sounds for the temporal event control, considering its intuitive usage in real-world application scenarios.
+
+
 # User Input Condition
 
 Creating Foley sounds manually is challenging and labor-intensive work. Therefore, the ultimate goal of this study is automating the Foley sound synthesis to allow anyone to easily generate sounds. 
