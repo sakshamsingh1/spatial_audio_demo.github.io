@@ -28,7 +28,7 @@ To demonstrate that **T-Foley** performs well in such use cases, we conducted ex
 
 When target sample, which indicate when the events should occur, is recorded by clapping.
 
-<iframe width="70%" class="center" style="aspect-ratio:16/9" src="https://youtu.be/embed/ZeYbg9UWK2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="70%" class="center" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/ZeYbg9UWK2Y?si=qKATjivY2RRJGFtB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## 2. Voice
@@ -41,9 +41,9 @@ When target sample, which indicate when the events should occur, is recorded by 
         <th>MovingMotorVehicle</th>
     </tr>
     <tr>
-        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://youtu.be/embed/7FLeYenzsnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://youtu.be/embed/TmYAEi3EHYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://youtu.be/embed/IlA_kvKrSUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/7FLeYenzsnU?si=U4PoHnZedmiAXJTm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/TmYAEi3EHYQ?si=zAIhvwtPDN27pZa7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/IlA_kvKrSUY?si=hRmYYYJey4oia078" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
     </tr>
     <tr>
         <th>Keyboard</th>
@@ -51,9 +51,9 @@ When target sample, which indicate when the events should occur, is recorded by 
         <th>Footstep</th>
     </tr>
     <tr>
-        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://youtu.be/embed/oyAFKUaqQDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://youtu.be/embed/g_mxdhz7-Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://youtu.be/embed/7ZNkm-fz0DA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/oyAFKUaqQDc?si=PRnybLuAyePoPQmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/g_mxdhz7-Qc?si=CBE-MV8EtWPBcZV3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        <td><iframe width="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/7ZNkm-fz0DA?si=I5sQ7KutVSMMP37q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
     </tr>
 </table>
 </div>
