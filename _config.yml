@@ -15,7 +15,6 @@ color:
 syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
 buttons:
   zip_url: https://github.com/YoonjinXD/T-foley
-  zip_title: Github Repo<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"/>
-  zip_hide: false
+  zip_title: <i class="fab fa-github"></i> GitHub Repo
   tar_hide: true
   github_hide: true
