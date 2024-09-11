@@ -1,5 +1,5 @@
 title: "T-FOLEY: A CONTROLLABLE WAVEFORM-DOMAIN DIFFUSION MODEL FOR TEMPORAL-EVENT-GUIDED FOLEY SOUND SYNTHESIS"
-description: <a href="https://yoonjinxd.github.io" style="color:#FFFFFF">Yoonjin Chung<sup>∗</sup></a>, <a href="https://jnwnlee.github.io" style="color:#FFFFFF">Junwon Lee<sup>∗</sup></a>, <a href="https://mac.kaist.ac.kr/~juhan/" style="color:#FFFFFF">Juhan Nam</a> <br>
+description: <a href="https://spatial_audio_demo.github.io" style="color:#FFFFFF">Yoonjin Chung<sup>∗</sup></a>, <a href="https://spatial_audio_demo.github.io" style="color:#FFFFFF">Junwon Lee<sup>∗</sup></a>, <a href="https://mac.kaist.ac.kr/~juhan/" style="color:#FFFFFF">Juhan Nam</a> <br>
               <code> {yoonjin.chung, james39, juhan.nam} @ kaist.ac.kr </code> <br>
               <a href="https://mac.kaist.ac.kr" style="color:#FFFFFF">Music and Audio Computing Lab</a>, KAIST
 show_downloads: true
