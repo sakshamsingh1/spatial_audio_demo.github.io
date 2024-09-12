@@ -1,6 +1,6 @@
 # Event-guided FSS Demo Page
 
-The site is published at https://yoonjinxd.github.io/Event-guided_FSS_Demo.github.io/
+The site is published at https://sakshamsingh1.github.io/spatial_audio_demo.github.io/
 
 --- 
 
