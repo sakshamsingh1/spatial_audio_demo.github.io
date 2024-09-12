@@ -13,8 +13,8 @@ color:
   link: "#5FAAFA" # this default to gradient_color
   section_title: "#135FD2" # this default to gradient_color
 syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
-buttons:
-  zip_url: https://github.com/YoonjinXD/T-foley
-  zip_title: GitHub Repo  <i class="fab fa-github"></i> 
-  tar_hide: true
-  github_hide: true
+# buttons:
+#   zip_url: https://github.com/YoonjinXD/T-foley
+#   zip_title: GitHub Repo  <i class="fab fa-github"></i> 
+#   tar_hide: true
+#   github_hide: true
