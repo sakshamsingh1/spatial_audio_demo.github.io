@@ -12,4 +12,4 @@ Spatial audio is a crucial component in creating immersive experiences. However,
 </p>
 
 
-<iframe width="70%" class="center" style="aspect-ratio:16/9" src="https://www.youtube.com/watch?v=J-pBzCMyUKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="70%" class="center" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/J-pBzCMyUKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
