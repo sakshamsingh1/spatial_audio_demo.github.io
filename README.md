@@ -1,4 +1,4 @@
-# Event-guided FSS Demo Page
+# Spatial Audio Generation Diff-SAGe Demo Page
 
 The site is published at https://sakshamsingh1.github.io/spatial_audio_demo.github.io/
 
