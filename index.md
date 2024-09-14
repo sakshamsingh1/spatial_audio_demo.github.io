@@ -13,3 +13,6 @@ Spatial audio is a crucial component in creating immersive experiences. However,
 
 
 <iframe width="70%" class="center" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/J-pBzCMyUKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<audio src="public/audios/clearthroat_split0_56_40_ele_20_azi_70.wav" controls></audio>
