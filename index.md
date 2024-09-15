@@ -25,8 +25,8 @@ Randomly selected examples.
         <th>Ground-Truth</th>
         <th>Diff-SAGe (Ours)</th>
         <th>Reference Audio (Simulated)</th>
-        <th>Tango (Simulated)</th>
         <th>AudioLDM (Simulated)</th>
+        <th>Tango (Simulated)</th>
     </tr>
     <tr>
         <td>Alarm</td>
@@ -153,8 +153,8 @@ Randomly selected examples.
         <th>Ground-Truth</th>
         <th>Diff-SAGe (Ours)</th>
         <th>Reference Audio (Simulated)</th>
-        <th>Tango (Simulated)</th>
         <th>AudioLDM (Simulated)</th>
+        <th>Tango (Simulated)</th>
     </tr>
     <tr>
         <td>Clearthroat</td>
