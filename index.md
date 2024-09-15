@@ -148,95 +148,102 @@ Randomly selected examples.
 
 <div style="display:flex; justify-content:center;">
 <table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
-<tr>
-    <td>Clearthroat</td>
-    <td><audio src="public/dcase19/dcase19_eval/clearthroat.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/clearthroat.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/clearthroat.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_audioLDM/clearthroat.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/clearthroat.wav" controls></audio></td>
-</tr>
-<tr>
-    <td>Cough</td>
-    <td><audio src="public/dcase19/dcase19_eval/cough.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/cough.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/cough.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_audioLDM/cough.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/cough.wav" controls></audio></td>
-</tr>
-<tr>
-    <td>Door Slam</td>
-    <td><audio src="public/dcase19/dcase19_eval/doorslam.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/doorslam.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/doorslam.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_audioLDM/doorslam.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/doorslam.wav" controls></audio></td>
-</tr>
-<tr>
-    <td>Drawer</td>
-    <td><audio src="public/dcase19/dcase19_eval/drawer.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/drawer.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/drawer.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_audioLDM/drawer.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/drawer.wav" controls></audio></td>
-</tr>
-<tr>
-    <td>Keyboard</td>
-    <td><audio src="public/dcase19/dcase19_eval/keyboard.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/keyboard.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/keyboard.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_audioLDM/keyboard.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/keyboard.wav" controls></audio></td>
-</tr>
-<tr>
-    <td>Keys Drop</td>
-    <td><audio src="public/dcase19/dcase19_eval/keysDrop.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/keysDrop.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/keysDrop.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_audioLDM/keysDrop.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/keysDrop.wav" controls></audio></td>
-</tr>
-<tr>
-    <td>Knock</td>
-    <td><audio src="public/dcase19/dcase19_eval/knock.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/knock.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/knock.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_audioLDM/knock.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/knock.wav" controls></audio></td>
-</tr>
-<tr>
-    <td>Laughter</td>
-    <td><audio src="public/dcase19/dcase19_eval/laughter.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/laughter.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/laughter.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_audioLDM/laughter.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/laughter.wav" controls></audio></td>
-</tr>
-<tr>
-    <td>Page Turn</td>
-    <td><audio src="public/dcase19/dcase19_eval/pageturn.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/pageturn.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/pageturn.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase20_audioLDM/pageturn.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/pageturn.wav" controls></audio></td>
-</tr>
-<tr>
-    <td>Phone</td>
-    <td><audio src="public/dcase19/dcase19_eval/phone.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/phone.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/phone.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_audioLDM/phone.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/phone.wav" controls></audio></td>
-</tr>
-<tr>
-    <td>Speech</td>
-    <td><audio src="public/dcase19/dcase19_eval/speech.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_L/speech.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_origAudio/speech.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_audioLDM/speech.wav" controls></audio></td>
-    <td><audio src="public/dcase19/dcase19_tango/speech.wav" controls></audio></td>
-</tr>
-
+    <tr>
+        <th></th>
+        <th>Ground-Truth</th>
+        <th>Diff-SAGe (Ours)</th>
+        <th>Reference Audio (Simulated)</th>
+        <th>Tango (Simulated)</th>
+        <th>AudioLDM (Simulated)</th>
+    </tr>
+    <tr>
+        <td>Clearthroat</td>
+        <td><audio src="public/dcase19/dcase19_eval/clearthroat.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/clearthroat.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/clearthroat.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_audioLDM/clearthroat.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/clearthroat.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>Cough</td>
+        <td><audio src="public/dcase19/dcase19_eval/cough.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/cough.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/cough.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_audioLDM/cough.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/cough.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>Door Slam</td>
+        <td><audio src="public/dcase19/dcase19_eval/doorslam.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/doorslam.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/doorslam.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_audioLDM/doorslam.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/doorslam.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>Drawer</td>
+        <td><audio src="public/dcase19/dcase19_eval/drawer.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/drawer.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/drawer.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_audioLDM/drawer.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/drawer.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>Keyboard</td>
+        <td><audio src="public/dcase19/dcase19_eval/keyboard.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/keyboard.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/keyboard.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_audioLDM/keyboard.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/keyboard.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>Keys Drop</td>
+        <td><audio src="public/dcase19/dcase19_eval/keysDrop.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/keysDrop.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/keysDrop.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_audioLDM/keysDrop.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/keysDrop.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>Knock</td>
+        <td><audio src="public/dcase19/dcase19_eval/knock.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/knock.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/knock.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_audioLDM/knock.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/knock.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>Laughter</td>
+        <td><audio src="public/dcase19/dcase19_eval/laughter.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/laughter.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/laughter.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_audioLDM/laughter.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/laughter.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>Page Turn</td>
+        <td><audio src="public/dcase19/dcase19_eval/pageturn.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/pageturn.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/pageturn.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase20_audioLDM/pageturn.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/pageturn.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <td><audio src="public/dcase19/dcase19_eval/phone.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/phone.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/phone.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_audioLDM/phone.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/phone.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td>Speech</td>
+        <td><audio src="public/dcase19/dcase19_eval/speech.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_L/speech.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_origAudio/speech.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_audioLDM/speech.wav" controls></audio></td>
+        <td><audio src="public/dcase19/dcase19_tango/speech.wav" controls></audio></td>
+    </tr>
 </table>
 </div>
 <br>
