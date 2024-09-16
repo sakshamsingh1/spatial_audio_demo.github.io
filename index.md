@@ -16,7 +16,7 @@ Spatial audio is a crucial component in creating immersive experiences. However,
 
 
 ## Examples for TAU-NIGENS Spatial Sound Events 2020 (TAU-NIGENS-20) dataset
-Randomly selected examples.
+Randomly selected examples. (Some samples may have low volume, so you may need to increase the audio level.)
 
 <div style="display:flex; justify-content:center;">
 <table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
@@ -144,7 +144,7 @@ Randomly selected examples.
 </div>
 
 ## Examples for TAU Spatial Sound Events 2019 (TAU-19) dataset
-Randomly selected examples.
+Randomly selected examples. (Some samples may have low volume, so you may need to increase the audio level.)
 
 <div style="display:flex; justify-content:center;">
 <table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
