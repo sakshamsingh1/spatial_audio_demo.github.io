@@ -18,6 +18,31 @@ Spatial audio is a crucial component in creating immersive experiences. However,
 ## Examples for TAU-NIGENS Spatial Sound Events 2020 (TAU-NIGENS-20) dataset
 Randomly selected examples. (Some samples may have low volume, so you may need to increase the audio level.)
 
+
+<div style="display: flex; justify-content: center;">
+  <table style="width: 800px; table-layout: fixed; text-align: center; border-collapse: collapse;">
+    <tr>
+      <th style="width: 150px;"></th>
+      <th style="width: 150px; white-space: normal;">Ground-Truth</th>
+      <th style="width: 150px; white-space: normal;">Diff-SAGe<br>(Ours)</th>
+      <th style="width: 150px; white-space: normal;">Reference Audio<br>(Simulated)</th>
+      <th style="width: 150px; white-space: normal;">AudioLDM<br>(Simulated)</th>
+      <th style="width: 150px; white-space: normal;">Tango<br>(Simulated)</th>
+    </tr>
+    <tr>
+      <td>Alarm</td>
+      <td><audio src="public/dcase20/dcase20_eval/alarm.wav" controls style="width: 140px;"></audio></td>
+      <td><audio src="public/dcase20/dcase20_L/alarm.wav" controls style="width: 140px;"></audio></td>
+      <td><audio src="public/dcase20/dcase20_origAudio/alarm.wav" controls style="width: 140px;"></audio></td>
+      <td><audio src="public/dcase20/dcase20_audioldm/alarm.wav" controls style="width: 140px;"></audio></td>
+      <td><audio src="public/dcase20/dcase20_tango/alarm.wav" controls style="width: 140px;"></audio></td>
+    </tr>
+    <!-- Add more rows as needed -->
+  </table>
+</div>
+
+
+
 <div style="display:flex; justify-content:center;">
 <table style="display:flex; justify-content:safe center; overflow:scroll;" text-align='center'>
     <tr>
